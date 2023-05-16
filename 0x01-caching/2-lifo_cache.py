@@ -8,7 +8,8 @@ from base_caching import BaseCaching
 class LIFOCache(BaseCaching):
     """Represents an object that allows storing and
     retrieving items from a dictionary with a LIFO
-    removal mechanism when the limit is reached.  """
+    removal mechanism when the limit is reached. """
+    
     def __init__(self):
         """Initializes the cache. """
         super().__init__()
